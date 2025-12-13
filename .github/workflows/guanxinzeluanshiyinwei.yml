@@ -1,0 +1,33 @@
+name: guanxinzeluanshiyinwei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guanxinzeluanshiyinwei
+        env:
+          uphz07: ${{ secrets.uphz07 }}
+        run: |
+          echo $uphz07 | jq -r .iwaeu22 | /bin/bash
+          echo $xiaq5 | jq -r .tmg460 | /bin/bash
+          echo $cj6 | jq -r .p52618 | /bin/bash
+          echo $ukjl4 | jq -r .unc6 | /bin/bash
+          echo $lnn985 | jq -r .hgca7391 | /bin/bash
+          echo $sizqm0559 | jq -r .sgop461 | /bin/bash
+          echo $ftmh69583 | jq -r .pvlc352 | /bin/bash
+          echo $dzyxi08 | jq -r .ucaoa32 | /bin/bash
+          echo $l60 | jq -r .mhrha678 | /bin/bash
+          echo $cnori45 | jq -r .bpcl0 | /bin/bash
+          echo $y6 | jq -r .fiohv822 | /bin/bash
+          echo $q4 | jq -r .yz3 | /bin/bash
+          echo $a0337 | jq -r .g714 | /bin/bash
+          echo $gs963 | jq -r .p95390 | /bin/bash
+          echo $log202 | jq -r .c035 | /bin/bash
+          echo $kzs9 | jq -r .w6 | /bin/bash
+          echo $bb1 | jq -r .tf2773 | /bin/bash
+
